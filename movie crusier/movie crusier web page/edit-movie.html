@@ -1,0 +1,74 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width",initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      <link rel="stylesheet" href="C:\Users\833399\Desktop\movie crusier\movie crusier web page\css\style.css">
+      <title> edit Movie</title>
+      <script src="C:\Users\833399\Desktop\movie crusier\movie crusier web page\Js\script.js"></script>
+      </script>
+  </head>
+  <body >
+      <div class="topnav">
+      <div class="home">MOVIE CRUISER</div>
+      <img src="C:\Users\833399\Desktop\movie crusier\movie crusier web page\image\movie cruiser image.png">
+      <a href="C:\Users\833399\Desktop\movie crusier\movie crusier web page\movie-list-admin.html">Movie</a>
+      </div>
+
+      <h1 id="head1">EDIT MOVIE</h1>
+      
+
+    <div class="body-content-colour">
+            <form action="edit-movie-status.html" onSubmit="return validateForm()"name="editMovie" method="get">
+                <div class="form-field-spacing">
+                    <label for="title"><b>TITLE</b></label>
+                    <br><input type="text" class="text-box" name="title" id="title" size="100"></div>
+                    
+                </div>
+                <div class="form-field-spacing">
+                        <label for="gross"><b>Groos($)</b></label>
+                        <br><input type="text" class="text-box" name="price" id="price"></br>
+                </div>
+                <div class="form-field-spacing">
+                        <label for="instock"><b>Active</b></label>
+                       <br> <input type="radio"  name="instock" class="radio" value="yes">Yes
+                        <input type="radio"  name="instock"  class="radio" value="no">No </br>
+                </div>
+                <div class="form-field-spacing">
+                        <label for="dateOfLaunch"><b>Date of Launch</b></label>
+                       <br> <input type="text"  class="text-box" name="dateOfLaunch"> </br>
+                         </div>
+
+                <div class="form-field-spacing">
+                        <label for="category"><b>Genre</b></label>
+                      <br>  <select name="category"  class="dropdown" >
+                        <option value="1">Thriller</option>
+                        <option value="2">Action</option>
+                       <option value="3">Comedy</option>
+                       <option value="4">Romance</option>
+                       <option value="5">adventure</option>
+                       <option value="6">superhero</option>
+
+                      </select></br>
+                 </div>
+                 <br >
+                    
+                     <label for="teaser" id="checkbox"><b>Has Teaser<b></label>
+                     <input type="checkbox" name="teaser"  >
+                </br>
+                 <br>
+                 <div>
+                     <input class="success-button" type="submit" value="save"  onclick="edit-movie-status.html">
+                 </div>
+                
+                 
+                    
+                 <div>
+                    <footer class="footer" id="footer">
+                     copyright@2019
+                    </footer>
+                    
+                    </form>
+                    </body>
+                    </html>
